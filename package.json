@@ -1,0 +1,27 @@
+{
+  "name": "myntra",
+  "version": "1.0.0",
+  "description": " This is the backend of myntra app",
+  "main": "app.js",
+  "type":"commonjs",
+  "scripts": {
+    "dev":"nodemon Backend/app.js",
+    "start": " nodemon Backend/app.js",
+    "build":"npm install && npm install --prefix Myntra-clone && npm run build --prefix Myntra-clone"
+  },
+  "keywords": [],
+  "author": "Bharat Brahm Singh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.0",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7",
+    "razorpay": "^2.9.6"
+  }
+}

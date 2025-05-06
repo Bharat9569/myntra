@@ -5,8 +5,8 @@
   "main": "app.js",
   "type":"commonjs",
   "scripts": {
-    "dev":"nodemon Backend/app.js",
-    "start": "node Backend/app.js",
+    "dev":"nodemon app.js",
+    "start": "node app.js",
     "build":"npm install && npm install --prefix Myntra-clone && npm run build --prefix Myntra-clone"
   },
   "keywords": [],

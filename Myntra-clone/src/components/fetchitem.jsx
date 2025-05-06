@@ -16,7 +16,7 @@ const FetchItem=()=>{
          
 
         dispatch(fetchStatusaction.markFetchingstarted());
-        fetch("http://localhost:8080/api/m1/items",{signal})
+        fetch("https://myntra-bim6.onrender.com/api/m1/items",{signal})
         .then((res)=>res.json())
         .then(({items})=>{
             console.log('items are',items);

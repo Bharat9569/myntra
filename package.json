@@ -5,9 +5,8 @@
   "main": "app.js",
   "type":"commonjs",
   "scripts": {
-    "dev":"nodemon app.js",
-    "start": "node app.js",
-    "build": "npm install --prefix Myntra-clone && npm run build --prefix Myntra-clone"
+  "start": "node app.js",
+  "build": "npm install --prefix ../Myntra-clone && npm run build --prefix ../Myntra-clone"
   },
   "keywords": [],
   "author": "Bharat Brahm Singh",
